@@ -1,8 +1,8 @@
 import React from 'react'
-import AceilLogo from '../../src/assets/Images/aceilWhite.svg'
-import '../css/Header.css'
-import Pages from './Pages.jsx'
-import Button from './Button.jsx'
+import AceilLogo from '../../../src/assets/Images/aceilWhite.svg'
+import '../../css/Header.css'
+import Pages from '../Pages.jsx'
+import Button from '../Button.jsx'
 import Header2 from './Header2.jsx'
 
 export default function Header() {
