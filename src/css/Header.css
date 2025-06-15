@@ -1,0 +1,27 @@
+header{
+    border-bottom: 1px dashed #444444;
+}
+
+nav{
+    border-right: 1px dashed rgb(68, 68, 68);
+    border-left: 1px dashed rgb(68, 68, 68);
+    box-sizing: border-box;
+    padding: 10px 20px; 
+}
+
+.header2{
+    display: none;
+}
+
+.hamburger{
+    display: none;
+}
+
+@media (max-width: 700px) {
+    .header2{
+        display: flex;
+    }
+    .header1{
+        display: none
+    }
+}
