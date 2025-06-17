@@ -13,9 +13,9 @@ export default function Header() {
 
     return (
         <>
-        <div className='header2'>
-        <header className='w-full flex justify-center items-center'>
-            <nav className='w-[90%] max-w-[1000px] flex justify-between items-center'>
+        <div className='header2  sticky top-0'>
+        <header className='w-full flex justify-center items-center bg-[#0e0e0e77] backdrop-blur-[15px]'>
+            <nav className='w-[95%] max-w-[900px] flex justify-between items-center'>
                 <img src= {AceilLogo} alt='Our Logo' className= 'w-[50px]' />
 
                 <div onClick={handleClick}>

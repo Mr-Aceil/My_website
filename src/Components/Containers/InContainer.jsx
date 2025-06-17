@@ -1,8 +1,8 @@
 import React from 'react'
 
-export default function InContainer({children, others}) {
+export default function InContainer({children, justify= 'justify-center', others}) {
     return (
-        <div className={`py-[50px] px-[20px] w-[90%] max-w-[1000px] flex justify-center items-center in-cont ${others}`}>
+        <div className={`py-[50px] px-[20px] text-white w-[95%] max-w-[900px] flex ${justify} items-center in-cont ${others}`}>
             {children}
         </div>
     )

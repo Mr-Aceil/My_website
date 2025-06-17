@@ -24,7 +24,7 @@
 
 *{
   font-family: 'Clash', sans-serif;
-  /* color: white */
+  /* color: #131313 */
 }
 
 body{
@@ -50,7 +50,7 @@ body{
 
 .in-cont{
   border-right: 1px dashed rgb(68, 68, 68);
-  border-left: 1px dashed rgb(68, 68, 68);
+  border-left: 1px dashed #444444;
   box-sizing: border-box;
 }
 
@@ -61,6 +61,12 @@ button{
 h1{
   font-size: clamp(1.3em, 10vw ,2.5em);
 }
+
+.hero{
+  display: grid;
+  grid-template-columns: repeat(autofit, minmax(300px, 1fr));
+}
+
 
 @media (max-width:700px) {
   h1{
